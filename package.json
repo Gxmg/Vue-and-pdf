@@ -1,0 +1,19 @@
+{
+  "name": "vue-and-pdf",
+  "version": "1.0.0",
+  "description": "在vue中实现pdf可以在线预览打印以及分页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gxmg/Vue-and-pdf.git"
+  },
+  "author": "codedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gxmg/Vue-and-pdf/issues"
+  },
+  "homepage": "https://github.com/Gxmg/Vue-and-pdf#readme"
+}
