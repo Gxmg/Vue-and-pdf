@@ -4,6 +4,7 @@
   "description": "在vue中实现pdf可以在线预览打印以及分页",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/Gxmg/Vue-and-pdf/issues"
   },
-  "homepage": "https://github.com/Gxmg/Vue-and-pdf#readme"
+  "homepage": "https://github.com/Gxmg/Vue-and-pdf#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0"
+  }
 }
